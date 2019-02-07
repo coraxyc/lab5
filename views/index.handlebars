@@ -19,7 +19,7 @@
 			</div>
 		{{/each}}
 
-		<form id="addFriendForm" role="form" method="get" action="/add">
+		<form id="addFriendForm" role="form" method="get" action="/add" onsubmit="setTimeout(function(){window.location.reload();},10)">
 			<h3>Add a friend</h3>
 		    <div class="form-group">
 		      <label for="name">Name:</label>
